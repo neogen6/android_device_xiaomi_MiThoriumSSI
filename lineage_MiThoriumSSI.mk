@@ -35,3 +35,5 @@ BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/relea
 # MiThoriumSSI
 MITHORIUMSSI_ROM_NAME := LineageOS
 MITHORIUMSSI_ROM_VERSION := 20.0
+
+$(call inherit-product-if-exists, vendor/gms/Android.mk)
